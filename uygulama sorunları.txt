@@ -5,5 +5,5 @@ SORUNLAR
 4-)mapte scroll block var
 
 HENÜZ YAPILMAYAN
-1-)roket eyleyici ile ateşlendikten sonra sayaç çalışacak
+1-)roket eyleyici ile ateşlendikten sonra saat başlatılacak
 2-)Arayüz tasarımı düzenlenicek
