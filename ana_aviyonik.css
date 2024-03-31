@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+ background-color: #161619;
+}
+.section {
+  width: auto;
+  height: 18rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo {
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+  color: #fff;
+}
+.logo img {
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin: 1rem 1rem 1rem  1rem ;
+  margin-top: 5rem;
+}
+
+.menus{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    gap: 3rem;
+    margin-top: -8rem;
+    height: 9rem;
+}
+.menus .item2 a{
+ font-family: 'Bebas Neue', sans-serif;
+  padding: 1rem 3rem 1rem 3rem;
+  color: #fff;
+  align-items: center;
+  font-size: 2.4rem;
+  border-radius: 2rem;
+}
+.menus .item3 a{
+  padding: 1rem 3rem 1rem 3rem;
+  color: #fff;
+  align-items: end;
+  font-size: 2.4rem;
+  border-radius: 2rem;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.menus .item4 a {
+  padding: 1rem 3rem 1rem 3rem;
+  color: #fff;
+  align-items: end;
+  font-size: 2.4rem;
+  border-radius: 2rem;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.menus .item5 a{
+  padding: 1rem 3rem 1rem 3rem;
+  color: #fff;
+  align-items: end;
+  font-size: 2.4rem;
+  border-radius: 2rem;
+  flex-wrap: wrap;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.item2 a:hover {
+  background-color: #282828;
+  cursor: pointer;
+  color: chocolate;}
+.item3 a:hover {
+  background-color: #282828;
+  cursor: pointer;
+  color: chocolate;
+}
+.item4 a:hover {
+  background-color: #282828;
+  cursor: pointer;
+  color: chocolate;
+  
+}
+.item5 a:hover {
+  background-color: #282828;
+  cursor: pointer;
+  color: chocolate;
+  
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  margin-top: -14rem;
+  font-size: 1.3rem;
+  cursor: default;
+
+}
+.icons i {
+  margin: 1rem 2rem 1rem 2rem;
+  cursor: default;
+  
+
+}.icons :hover{
+ 
+  background: #282828;
+    
+}
+.inputbox1 .i1 h3{
+  padding: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.3rem;
+}
+.inputbox1 .i1 h3:hover{
+  color: chocolate;
+  cursor: pointer;
+  font-style: inherit ;
+}
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.contact .row form {
+  margin-top: 4rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  color: #fff;
+}
+.contact .row form .inputbox1 .i1
+{
+  display: flex;
+  
+}
+.contact .row form .inputbox1 .i2{display: flex;}
+.contact .row form .inputbox1 .i3{display: flex;}
+.contact .row form .inputbox1 {
+  margin-top: -2rem;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly; 
+}
+.contact .row form .inputbox1 i {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+.contact .row form .inputbox1 input {
+  padding: 1rem;
+  font-size: 1.8rem;
+  color: #fff;
+  text-transform: none;
+  background-color: transparent;
+}
+.contact .row form .inputbox2 i {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-left: 4.5rem;
+}
+.contact .row form .inputbox2 input {
+  padding: 1rem;
+  font-size: 1.8rem;
+  color: #fff;
+  text-transform: none;
+  background-color: transparent;
+  margin-left:rem;
+}
+
+.radios{
+  display: flex;
+  justify-content: center;
+  margin:2rem 3rem 1rem 0rem;}
+.radios1{
+  margin-right: 4rem;
+}.radios i{
+  color:#fff ;
+  font-size: 1.9rem;
+}.contact .row .i3 .btn {
+  font-weight: bold;
+  background-color:#777777;
+  color: #fff;
+  display: flex;
+  text-align: left;
+  padding: 0.2rem 2rem 0.2rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 2rem;
+}
+.contact .row .i3 .btn:hover{
+  color:chocolate;
+  cursor: pointer;
+  background-color: #fff;
+}
+.gauges {
+  position: static;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: -5rem;
+}
+#map {
+
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  margin-left: 100rem;
+}
