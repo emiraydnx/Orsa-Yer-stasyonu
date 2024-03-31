@@ -1,0 +1,9 @@
+SORUNLAR
+1-)durum verileri düzgün alınamıyor olabilir.
+2-)uzun süre verileri grafikte çizdirince uygulamanın yavaşlaması ve sekmeler arası geçişte grafik verilerinin silinerek baştan başlaması
+3-)faydalı yük için veri paketlerinden doğru veri alınmıyor olabilir.
+4-)mapte scroll block var
+
+HENÜZ YAPILMAYAN
+1-)roket eyleyici ile ateşlendikten sonra sayaç çalışacak
+2-)Arayüz tasarımı düzenlenicek
